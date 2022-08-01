@@ -1,0 +1,24 @@
+%avator-base {
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.avator-24 {
+  @extend %avator-base;
+  width: 24px;
+  height: 24px;
+}
+
+.avator-32 {
+  @extend %avator-base;
+  width: 32px;
+  height: 32px;
+}
